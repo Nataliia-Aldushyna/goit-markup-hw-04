@@ -193,7 +193,24 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--primary-cl);
+  /* color: var(--primary-cl); */
+  transition: color var(--transition);
+}
+
+.nav-menu-link::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    height: 4px;
+    border-radius: var(--radius);
+    background: transparent;
+}
+
+.nav-menu-link.current::after {
+    background: var(--accent-cl-200);
 }
 
 .nav-menu-link:hover,
