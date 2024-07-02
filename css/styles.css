@@ -209,8 +209,13 @@ img {
     background: transparent;
 }
 
-.nav-menu-link.current::after {
-    background: var(--accent-cl-200);
+.nav-menu-link.active::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--accent-cl-200);
 }
 
 .nav-menu-link:hover,
@@ -218,7 +223,7 @@ img {
     color: var(--accent-cl-200);
 }
 
-.nav-menu-link.current {
+.nav-menu-link.active {
     color: var(--accent-cl-200);
 }
 
