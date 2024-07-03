@@ -397,6 +397,16 @@ img {
     background: var(--primary-cl);
 }
 
+footer .container {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-left {
+    max-width: 264px;
+    margin-right: 120px;
+}
+
 .footer-logo {
   display: inline-block;
   margin-right: 0;
@@ -408,5 +418,29 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--secondary-cl);
+}
+
+.footer-middle {
+    margin-right: auto;
+}
+
+.footer-caption {
+    margin-bottom: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--light-cl);
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.socials-item {
+    width: 40px;
+    height: 40px;
 }
 /* #endregion */
