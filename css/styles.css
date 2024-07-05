@@ -197,34 +197,25 @@ img {
   transition: color var(--transition);
 }
 
-.nav-menu-link::after {
-    content: '';
-    position: absolute;
-    bottom: -1px;
-    left: 50%;
-    transform: translate(-50%);
-    width: 100%;
-    height: 4px;
-    border-radius: var(--radius);
-    background: transparent;
-}
-
-.nav-menu-link.active::after {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 4px;
-    border-radius: 2px;
-    background-color: var(--accent-cl-200);
-}
-
 .nav-menu-link:hover,
 .nav-menu-link:focus {
     color: var(--accent-cl-200);
 }
 
-.nav-menu-link.active {
-    color: var(--accent-cl-200);
+.current {
+  position: relative;
+  color: var(--accent-cl-200);
+}
+
+.current::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--accent-cl-200);
 }
 
 .header-contacts {
