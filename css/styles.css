@@ -11,6 +11,7 @@
     --light-cl:  #ffffff;
     --light-cl-100: rgb(231, 233, 252);
     --dark-cl: #434455;
+    --dark-cl-100: #8e8f99;
     --footer-hover: #31d0aa;
 
     /* Others */
@@ -282,6 +283,18 @@ img {
 /* #endregion */
 
 /* #region Features */
+.features-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 264px;
+  height: 112px;
+  margin-bottom: 8px;
+  border-radius: var(--radius);
+  border: 1px solid var(--dark-cl-100);
+  background-color: var(--secondary-cl);
+}
+
 .features-caption {
     margin-bottom: 8px;
     font-weight: 500;
