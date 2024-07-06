@@ -29,7 +29,6 @@
     0 2px 1px 0 rgba(0, 0, 0, 0.08), 
     0 3px 1px 0 rgba(0, 0, 0, 0.1);
     --btn-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-
 }
 
 /* #region Base styles */
@@ -128,6 +127,7 @@ img {
     color: var(--light-cl);
     background: var(--accent-cl-100);
     border-radius: var(--radius);
+    transition: background-color var(--transition)
 }
 /* #endregion */
 
@@ -147,6 +147,7 @@ img {
 /* #region Header */
 .header {
   border-bottom: 1px solid var(--light-cl-100);
+  box-shadow: var(--primary-shadow);
 }
 .header .container {
   display: flex;
@@ -237,6 +238,7 @@ img {
 
 .contacts-link {
   padding: 24px 0;
+  transition: color var(--transition);
 }
 
 .contacts-link:hover, 
@@ -324,7 +326,7 @@ img {
 
 .team-wrapper,
 .portfolio-wrapper {
-    padding: 32px 16px;
+    padding: 32px 0px;
 }
 
 .team-member {
@@ -366,6 +368,10 @@ img {
   border-bottom: 1px solid var(--light-cl-100);
   border-left: 1px solid var(--light-cl-100);
   border-right: 1px solid var(--light-cl-100);
+}
+
+.portfolio-item {
+  transition: box-shadow var(--transition) 
 }
 
 .portfolio-item:hover {
