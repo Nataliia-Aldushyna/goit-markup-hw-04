@@ -4,15 +4,15 @@
     --secondary-font: 'Raleway', sans-serif;
 
       /* Colors */
-    --primary-cl: #2e2f42;  
-    --secondary-cl: #f4f4fd;
-    --accent-cl-100: #4d5ae5;
-    --accent-cl-200: #404bbf;
-    --light-cl:  #ffffff;
+    --primary-cl: rgb(46, 47, 66);  
+    --secondary-cl: rgb(244, 244, 253);
+    --accent-cl-100: rgb(77, 90, 229);
+    --accent-cl-200: rgb(64, 75, 191);
+    --light-cl:  rgb(255, 255, 255);
     --light-cl-100: rgb(231, 233, 252);
-    --dark-cl: #434455;
-    --dark-cl-100: #8e8f99;
-    --footer-hover: #31d0aa;
+    --dark-cl: rgb(67, 68, 85);
+    --dark-cl-100: rgb(142, 143, 153);
+    --footer-hover: rgb(49, 208, 170);
 
     /* Others */
     --radius: 4px;
