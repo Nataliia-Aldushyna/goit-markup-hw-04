@@ -368,6 +368,10 @@ img {
   border-right: 1px solid var(--light-cl-100);
 }
 
+.portfolio-wrapper:hover {
+  box-shadow: var(--primary-shadow);
+}
+
 .portfolio-caption {
     margin-bottom: 8px;
     font-weight: 500;
