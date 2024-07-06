@@ -368,7 +368,7 @@ img {
   border-right: 1px solid var(--light-cl-100);
 }
 
-.portfolio-wrapper:hover {
+.portfolio-item:hover {
   box-shadow: var(--primary-shadow);
 }
 
